@@ -1,0 +1,24 @@
+// Font awesome icons
+// @import "./fontawesome/scss/fontawesome.scss";
+
+@import "./scss-fontAwesome/fontawesome.scss";
+
+// our project needs Solid + Brands
+@import "./scss-fontAwesome/solid.scss";
+@import "./scss-fontAwesome/brands.scss";
+@import "./scss-fontAwesome/regular.scss";
+
+// Abstract files
+@import "./abstracts/all.scss";
+
+// Components files
+@import "./components/all.scss";
+
+// Core files
+@import "core/all";
+
+// Pages files
+@import "pages/all";
+
+// Sections files
+@import "sections/all";

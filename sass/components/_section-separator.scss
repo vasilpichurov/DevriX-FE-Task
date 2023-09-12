@@ -1,0 +1,48 @@
+.section-separator{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid $clr-red;
+    display: block;
+    margin: 3em auto;
+}
+
+.section-separator--white{
+    border-bottom: 1px solid $clr-white;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 3em;
+}
+
+@media screen and (max-width: $lg-screen) {
+    .section-separator{
+        width: 76%;
+    }
+
+    .section-separator--white{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: $mid-screen) {
+    .section-separator{
+        width: 82%;
+    }
+
+    .section-separator--white{
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: $tablet) {
+    .section-separator{
+        width: 95%;
+    }
+
+    .section-separator--white{
+        margin: 0;
+        width: 100%;
+    }
+}

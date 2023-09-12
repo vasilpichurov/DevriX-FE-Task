@@ -1,0 +1,37 @@
+@mixin card-description {
+    font-family: $open-sans;
+    font-weight: 400;
+    font-size: 14px;
+    color: $clr-gray;
+}
+
+@mixin small-card-heading {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@mixin big-card-heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@mixin big-card-content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+@mixin section-heading {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+}
+
+@mixin latest-news-heading {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+}

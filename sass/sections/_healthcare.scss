@@ -1,0 +1,59 @@
+.healthcare-section{
+    padding: 2em 15% 3em 15%;
+    background-color: $clr-dark-red;
+
+    &__title{
+        @include section-heading;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        color: $clr-white;
+    }
+
+    &__card-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 3em;
+
+        &__item1{
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        &__item2{
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+
+        &__item3{
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+    }
+}
+
+@media screen and (max-width: $lg-screen) {
+    .healthcare-section{
+        padding: 2em 12% 3em 12%;
+    }
+}
+
+@media screen and (max-width: $mid-screen) {
+    .healthcare-section{
+        padding: 2em 9% 3em 9%;
+    }
+}
+
+@media screen and (max-width: $tablet){
+    .healthcare-section{
+        padding: 2em 1em 3em 1em;
+        
+        &__card-container{
+            display: flex;
+            flex-direction: column;
+
+            .small-card{
+                margin-bottom: 2em;
+            }
+        }
+    }
+}

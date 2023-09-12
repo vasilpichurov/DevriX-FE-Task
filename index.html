@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <title>DevriX-FE-Task</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="header__logo">My Logo</h1>
+        <div class="header__btn-container">
+            <button class="btn btn--social">
+                <i class="fa-brands fa-facebook-f btn--social__icon"></i>
+            </button>
+            <button class="btn btn--social">
+                <a href="#"><i class="fa-brands fa-twitter btn--social__icon"></i></a>
+            </button>
+            <button class="btn btn--social">
+                <i class="fa-brands fa-square-instagram btn--social__icon"></i>
+            </button>
+            <button class="btn btn--cta">Subscribe for more</button>
+        </div>
+
+        <div class="header__mobile-container">
+            <button class="btn btn--cta">Subscribe for more</button>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <button class="header__hamburger-menu js-hamburger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>    
+    </div>
+
+    <div class="nav">
+        <div class="nav__link-container">
+            <a href="#" class="nav-links">News</a>
+            <a href="#" class="nav-links">Sex</a>
+            <a href="#" class="nav-links">Special Features</a>
+            <a href="#" class="nav-links">Technology</a>
+            <a href="#" class="nav-links">Sport</a>
+            <a href="#" class="nav-links">Analysis</a>
+        </div>
+        <div class="nav__weather-search-container">
+            <div class="nav__weather-search-container__weather">
+                <i class="fa-solid fa-cloud weather-icon"></i>
+                <p>28°C, Sofia</p>
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-mobile nav-mobile--closed js-nav-mobile">
+
+        <button class="nav-mobile__close js-nav-mobile-close">
+            <i class="fa-solid fa-x"></i>
+        </button>
+
+        <div class="nav-mobile__link-container">
+            <a href="#" class="nav-links">News</a>
+            <a href="#" class="nav-links">Sex</a>
+            <a href="#" class="nav-links">Special Features</a>
+            <a href="#" class="nav-links">Technology</a>
+            <a href="#" class="nav-links">Sport</a>
+            <a href="#" class="nav-links">Analysis</a>
+        </div>
+
+        <div class="nav-mobile__weather">
+            <i class="fa-solid fa-cloud weather-icon"></i>
+            <p>28°C, Sofia</p>
+        </div>
+
+    </div>
+
+    <div class="hero">
+        <!-- <img src="./images/heroTexture.png" alt="hero-image" class="hero__texture"> -->
+
+        <div class="hero__left">
+            
+            <div class="hero-img-stacked-container">
+                <img src="./images/heroTexture.png" alt="hero-image" class="hero-img-stacked-container__texture">
+                
+                <div class="pic-container">
+                    <img src="./images/heroImage.png" alt="hero-image" class="hero__left__image">
+                    <div class="featured">
+                        <i class="fa-regular fa-star"></i>
+                        <h4 class="featured__title">FEATURED</h4>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="hero__left__main-news">
+                <h2 class="heading">Malaria vaccine to be tested on 4,800 children — UK scientist</h2>
+                <p class="info">Accusamus dolores quia dolorem quidem a suscipit molestias expedita et. Est cum molestiae. Eligendi dolores sint quia velit velit qui odio ab.</p>
+                <button class="btn btn--cta btn--cta-big">Read more</button>
+            </div>
+            
+        </div>
+        <div class="hero__right">
+            <h3 class="hero__right__heading" >LATEST NEWS</h3>
+            <div class="hero__right__card">
+                <h4 class="hero__right__card__title">Doloremque ullam sed doloribus ut asperiores et sed in ut.</h4>
+                <p class="hero__right__card__desc">Adebayo Folorunsho-Francis - Dec 7, 2020</p>
+            </div>
+
+            <div class="hero__right__card">
+                <h4 class="hero__right__card__title">Repellendus vel quisquam rerum iusto id quibusdam et est labore.</h4>
+                <p class="hero__right__card__desc">Adebayo Folorunsho-Francis - Dec 7, 2020</p>
+            </div>
+
+            <div class="hero__right__card">
+                <h4 class="hero__right__card__title">Et dignissimos et autem voluptas et exercitationem eveniet eos voluptas.</h4>
+                <p class="hero__right__card__desc">Adebayo Folorunsho-Francis - Dec 7, 2020</p>
+            </div>
+
+            <div class="hero__right__card">
+                <h4 class="hero__right__card__title">Tempore sed necessitatibus quae fugit consequatur qui laboriosam est eum.</h4>
+                <p class="hero__right__card__desc">Adebayo Folorunsho-Francis - Dec 7, 2020</p>
+            </div>
+
+            <div class="hero__right__card">
+                <h4 class="hero__right__card__title">Quaerat maxime placeat laboriosam odit ut animi aut laudantium.</h4>
+                <p class="hero__right__card__desc">Adebayo Folorunsho-Francis - Dec 7, 2020</p>
+            </div>
+
+            <button class="see-more-btn see-more-btn--right">
+                <span class="see-more-btn__title">See all latest news</span>
+                <i class="fa-solid fa-arrow-right see-more-btn__icon"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="breaking-section">
+        <div class="breaking-section__card-container">
+            <div class="breaking-section__card-container__card breaking-section__card-container__card-1">
+                <h3 class="breaking-section__card-container__card__heading">
+                    WHO launches ‘infodemic alliance’ to fight COVID-19 misinformation in Africa
+                </h3>
+                <p class="breaking-section__card-container__card__description">Yusuff Moshood - Dec 3, 2020</p>
+            </div>
+
+            <div class="breaking-section__card-container__card breaking-section__card-container__card-2">
+                <h3 class="breaking-section__card-container__card__heading">
+                    WHO launches ‘infodemic alliance’ to fight COVID-19 misinformation in Africa
+                </h3>
+                <p class="breaking-section__card-container__card__description">Yusuff Moshood - Dec 3, 2020</p>
+            </div>
+
+            <div class="breaking-section__card-container__card breaking-section__card-container__card-3">
+                <h3 class="breaking-section__card-container__card__heading">
+                    WHO launches ‘infodemic alliance’ to fight COVID-19 misinformation in Africa
+                </h3>
+                <p class="breaking-section__card-container__card__description">Yusuff Moshood - Dec 3, 2020</p>
+            </div>
+
+            <div class="breaking-section__card-container__card breaking-section__card-container__card-4">
+                <h3 class="breaking-section__card-container__card__heading">
+                    WHO launches ‘infodemic alliance’ to fight COVID-19 misinformation in Africa
+                </h3>
+                <p class="breaking-section__card-container__card__description">Yusuff Moshood - Dec 3, 2020</p>
+            </div>
+
+            <div class="breaking-section__card-container__card breaking-section__card-container__card-5">
+                <div class="breaking-section__card-container__picture-container">
+                    <img src="./images/bigRedTree.png" alt="breaking-image" class="image">
+                    <div class="featured">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <h4 class="featured__title">BREAKING</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="section-separator"/>
+
+    <div class="news-section">
+        <h1 class="news-section__title">News</h1>
+
+        <div class="news-section__card-container">
+            <div class="small-card news-section__card-container__item1">
+                <img src="./images/news1.png" alt="news1" class="small-card__img">
+                <p class="small-card__heading">Et ipsam deleniti mollitia iure et incidunt assumenda expedita.</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+
+            <div class="small-card news-section__card-container__item2">
+                <img src="./images/news2.png" alt="news2" class="small-card__img">
+                <p class="small-card__heading">Et ipsam deleniti mollitia iure</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+
+            <div class="small-card news-section__card-container__item3">
+                <img src="./images/news3.png" alt="news3" class="small-card__img">
+                <p class="small-card__heading">Asperiores sapiente alias voluptas quasi ratione quae dolorem.</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+
+            <div class="small-card news-section__card-container__item4">
+                <img src="./images/news4.png" alt="news4" class="small-card__img">
+                <p class="small-card__heading">Asperiores sapiente alias voluptas quasi ratione quae dolorem.</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+
+            <div class="big-card news-section__card-container__item5">
+                <img src="./images/newsBig.png" alt="news1" class="big-card__img">
+                <p class="big-card__author">Adebayo Folorunsho-Francis - Dec 7, 2020</p>
+                <h3 class="big-card__heading">At doloremque id voluptatum dignissimos unde est voluptatem.</h3>
+                <p class="big-card__description">Sit voluptatum suscipit sunt sed ut ratione alias. Dolorem culpa alias quos. Aliquid iusto laboriosam alias. Optio ullam molestiae et non repellendus sit iste.</p>
+
+                <button class="see-more-btn see-more-btn--left">
+                    <span class="see-more-btn__title">Continue reading this article</span>
+                    <i class="fa-solid fa-arrow-right see-more-btn__icon"></i>
+                </button>      
+            </div>
+        </div>
+    </div>
+
+    <hr class="section-separator"/>
+
+    <div class="sex-section">
+        <h1 class="news-section__title">SEX</h1>
+            
+        <div class="sex-section__card-container">
+            <div class="small-card sex-section__card-container__item1">
+                <img src="./images/sex1.png" alt="news1" class="small-card__img">
+                <p class="small-card__heading">Asperiores sapiente alias voluptas quasi ratione quae dolorem.</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+
+            <div class="small-card sex-section__card-container__item2">
+                <img src="./images/sex2.png" alt="news1" class="small-card__img">
+                <p class="small-card__heading">Asperiores sapiente alias voluptas quasi ratione quae dolorem.</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+
+            <div class="small-card sex-section__card-container__item3">
+                <img src="./images/sex3.png" alt="news1" class="small-card__img">
+                <p class="small-card__heading">Asperiores sapiente alias voluptas quasi ratione quae dolorem.</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+        </div>
+    </div>
+
+    <hr class="section-separator"/>
+
+    <div class="technology-section">
+        <h1 class="technology-section__title">TECHNOLOGY</h1>
+
+        <div class="technology-section__card-container">
+            <div class="small-card technology-section__card-container__item1">
+                <img src="./images/technologySmall1.png" alt="tech1" class="small-card__img">
+                <p class="small-card__heading">Et ipsam deleniti mollitia iure et incidunt assumenda expedita.</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+
+            <div class="small-card technology-section__card-container__item2">
+                <img src="./images/technologySmall2.png" alt="tech2" class="small-card__img">
+                <p class="small-card__heading">Et ipsam deleniti mollitia iure</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+
+            <div class="small-card technology-section__card-container__item3">
+                <img src="./images/technologySmall3.png" alt="tech3" class="small-card__img">
+                <p class="small-card__heading">Asperiores sapiente alias voluptas quasi ratione quae dolorem.</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+
+            <div class="small-card technology-section__card-container__item4">
+                <img src="./images/technologySmall4.png" alt="tech4" class="small-card__img">
+                <p class="small-card__heading">Asperiores sapiente alias voluptas quasi ratione quae dolorem.</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+
+            <div class="big-card technology-section__card-container__item5">
+                <img src="./images/technologyBig.png" alt="tech5" class="big-card__img">
+                <p class="big-card__author">Adebayo Folorunsho-Francis - Dec 7, 2020</p>
+                <h3 class="big-card__heading">At doloremque id voluptatum dignissimos unde est voluptatem.</h3>
+                <p class="big-card__description">Sit voluptatum suscipit sunt sed ut ratione alias. Dolorem culpa alias quos. Aliquid iusto laboriosam alias. Optio ullam molestiae et non repellendus sit iste.</p>
+
+                <button class="see-more-btn see-more-btn--left">
+                    <span class="see-more-btn__title">Continue reading this article</span>
+                    <i class="fa-solid fa-arrow-right see-more-btn__icon"></i>
+                </button>      
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="sport-section">
+        <hr class="section-separator"/>
+        <h1 class="sport-section__title">SPORT</h1>
+            
+        <div class="sport-section__card-container">
+            <div class="small-card sport-section__card-container__item1">
+                <img src="./images/sport1.png" alt="sport1" class="small-card__img">
+                <p class="small-card__heading">Asperiores sapiente alias voluptas quasi ratione quae dolorem.</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+
+            <div class="small-card sport-section__card-container__item2">
+                <img src="./images/sport2.png" alt="sport2" class="small-card__img">
+                <p class="small-card__heading">Asperiores sapiente alias voluptas quasi ratione quae dolorem.</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+
+            <div class="small-card sport-section__card-container__item3">
+                <img src="./images/sport3.png" alt="sport3" class="small-card__img">
+                <p class="small-card__heading">Asperiores sapiente alias voluptas quasi ratione quae dolorem.</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+
+            <div class="small-card sport-section__card-container__item4">
+                <img src="./images/sport4.png" alt="sport4" class="small-card__img">
+                <p class="small-card__heading">Asperiores sapiente alias voluptas quasi ratione quae dolorem.</p>
+                <p class="small-card__date">Dec 2, 2020</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="healthcare-section">
+        <hr class="section-separator section-separator--white"/>
+        <h1 class="healthcare-section__title">HEALTHCARE</h1>
+            
+        <div class="healthcare-section__card-container">
+            <div class="small-card healthcare-section__card-container__item1">
+                <img src="./images/healthcare1.png" alt="news1" class="small-card__img">
+                <p class="small-card__heading--white">Asperiores sapiente alias voluptas quasi ratione quae dolorem.</p>
+                <p class="small-card__date--white">Dec 2, 2020</p>
+            </div>
+
+            <div class="small-card healthcare-section__card-container__item2">
+                <img src="./images/healthcare2.png" alt="news1" class="small-card__img">
+                <p class="small-card__heading--white">Asperiores sapiente alias voluptas quasi ratione quae dolorem.</p>
+                <p class="small-card__date--white">Dec 2, 2020</p>
+            </div>
+
+            <div class="small-card healthcare-section__card-container__item3">
+                <img src="./images/healthcare3.png" alt="news1" class="small-card__img">
+                <p class="small-card__heading--white">Asperiores sapiente alias voluptas quasi ratione quae dolorem.</p>
+                <p class="small-card__date--white">Dec 2, 2020</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__left-wrapper">
+            <div class="footer__left-wrapper__logo-container">
+                <h1 class="footer__left-wrapper__logo-container__symbol">L</h1>
+            </div>
+            <div class="nav nav--footer">
+                <div class="nav__link-container nav--footer__link-container">
+                    <a href="#" class="nav-links--white">News</a>
+                    <a href="#" class="nav-links--white">Sex</a>
+                    <a href="#" class="nav-links--white">Special Features</a>
+                    <a href="#" class="nav-links--white">Technology</a>
+                    <a href="#" class="nav-links--white">Sport</a>
+                    <a href="#" class="nav-links--white">Analysis</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__right-wrapper">
+            <p class="footer__right-wrapper__project">Project © 2023</p>
+            <div class="footer__right-wrapper__btn-container">
+                <button class="btn btn--social--red">
+                    <i class="fa-brands fa-facebook-f btn--social--red__icon"></i>
+                </button>
+                <button class="btn btn--social--red">
+                    <a href="#"><i class="fa-brands fa-twitter btn--social--red__icon"></i></a>
+                </button>
+                <button class="btn btn--social--red">
+                    <i class="fa-brands fa-square-instagram btn--social--red__icon"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>

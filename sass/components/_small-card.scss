@@ -1,0 +1,27 @@
+.small-card{
+    width: 100%;
+
+    &__img{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    &__heading{
+        @include small-card-heading;
+        margin-bottom: 1em;
+    }
+
+    &__heading--white{
+        @include small-card-heading;
+        margin-bottom: 1em;
+        color: $clr-white;
+    }
+
+    &__date{
+        @include card-description;
+    }
+
+    &__date--white{
+        @include card-description;
+        color: $clr-white;
+    }
+}

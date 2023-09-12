@@ -1,0 +1,65 @@
+.btn{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: .1em;
+
+    &--social{
+        background-color: $clr-medium-gray;
+        min-width: 30px;
+        min-height: 30px;
+        &__icon{
+            color: $clr-black;
+            font-size: 14px;
+        }
+    }
+
+    &--social--red{
+        background-color: $clr-dark-red;
+        min-width: 40px;
+        min-height: 40px;
+
+        &__icon{
+            color: $clr-white;
+            font-size: 18px;
+        }
+    }
+
+    &--cta{
+        background-color: $clr-black;
+        color: $clr-white;
+        padding: 0.5em 1.5em;
+    }
+
+    &--cta-big{
+        font-size: 16px;
+        font-weight: 700;
+        padding: 1em 2em;
+    }
+}
+
+.see-more-btn{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 0;
+    margin-left: auto;
+
+    &__title{
+        margin-right: 1em;
+    }
+}
+
+.see-more-btn--right{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.see-more-btn--left{
+    margin-right: auto;
+    margin-left: 0;
+}
